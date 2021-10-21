@@ -1,5 +1,9 @@
 public class Director extends Manager {
 
+    public Director(int baseSalary, String name, int numberOfSubordinates) {
+        super(baseSalary, name, numberOfSubordinates);
+    }
+
     @Override
     public int getSalary() {
         if (getNumberOfSubordinates() == 0) {

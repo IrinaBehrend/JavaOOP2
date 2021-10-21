@@ -2,6 +2,11 @@ public class Manager extends Worker {
 
     private int numberOfSubordinates;
 
+    public Manager(int baseSalary, String name, int numberOfSubordinates) {
+        super(baseSalary, name);
+        this.numberOfSubordinates = numberOfSubordinates;
+    }
+
     public int getNumberOfSubordinates() {
         return numberOfSubordinates;
     }
