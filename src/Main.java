@@ -9,6 +9,8 @@ public class Main {
         Worker[] workers = {worker, manager, director};
         Manager[] managers = {manager, director};
 
-        System.out.println();
+        System.out.println(EmployeeUtils.findByName("Irina", workers).getName());
+        System.out.println(EmployeeUtils.findBySubName("in", workers).getName());
+        System.out.println(EmployeeUtils.getMinSubordinates(managers).getName());
     }
 }

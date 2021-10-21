@@ -37,6 +37,7 @@ public class EmployeeUtils {
                 result = array[i];
             }
         }
+        return result;
     }
 }
 
